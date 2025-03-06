@@ -5,6 +5,7 @@ import java.util.Scanner;
 class Vehiculo {
     private String placa;
     private String tipo; // Puede ser "Carro", "Moto", etc.
+    private int puertas;
 
     public Vehiculo(String placa, String tipo) {
         this.placa = placa;
